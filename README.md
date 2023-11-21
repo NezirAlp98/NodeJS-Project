@@ -22,4 +22,3 @@ işlemleri Fs modülü kullanılacak bir json dosyasına kaydedilecek
 * id si gönderilen çalışanın silindiği bir method olacak
 * id si gönderilen çalışanın verilerinin update edildiği bir method olacak (varsa
 zorunlu verilerin tipleri kontrol edilecek ve id değiştirmeye izin verilmeyecek)
-try
