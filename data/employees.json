@@ -9,6 +9,18 @@
     "id": "1700572344678",
     "age": 30,
     "name": "Alp",
+    "stillEmployee": false
+  },
+  {
+    "id": "1700573128384",
+    "name": "Daisy",
+    "age": 21,
+    "stillEmployee": false
+  },
+  {
+    "id": "1700573139309",
+    "name": "Jack",
+    "age": 37,
     "stillEmployee": true
   }
 ]
