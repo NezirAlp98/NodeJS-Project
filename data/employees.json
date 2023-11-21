@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1700572247398",
+    "name": "Nezir",
+    "age": 25,
+    "stillEmployee": true
+  },
+  {
+    "id": "1700572344678",
+    "age": 30,
+    "name": "Alp",
+    "stillEmployee": true
+  }
+]
