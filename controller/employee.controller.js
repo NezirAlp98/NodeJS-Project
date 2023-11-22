@@ -18,6 +18,22 @@ exports.employeeSave=(req,res)=>{
     }
 }
 
+exports.employeeGetAll=(req,res)=>{
+    try {
+        const employees=jsonFileUtils.readJsonFile()
+
+        if (employees) {
+            res.status(200).send(employees)
+        }else{
+            res.status(404).send()
+        }
+
+    } catch (error) {
+        console.log(error)
+        res.status(500).send()
+    }
+}
+
 exports.employeeGet=(req,res)=>{
     try {
         const employees=jsonFileUtils.readJsonFile()

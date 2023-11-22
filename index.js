@@ -1,6 +1,7 @@
 const express=require('express')
 const bodyParser=require('body-parser')
 const dotenv=require('dotenv')
+const validationMiddleware=require('./middleware/validation.middleware')
 const routes=require('./routes/employee.route')
 const app=express()
 
@@ -12,6 +13,8 @@ const PORT=3000;
 app.get("/",(req,res)=>{
     res.status(200).send("working")
 })
+
+app.use(validationMiddleware);
 
 app.use("/api",routes)
 
