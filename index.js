@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
     res.status(200).send("working")
 })
 
-app.use(validationMiddleware);
+
 
 app.use("/api",routes)
 

@@ -1,5 +1,9 @@
 # Ödev 2
 
+### Postman dokümantasyon:
+https://documenter.getpostman.com/view/31368134/2s9YeD7sGx
+
+
 Yereldeki json dosyaları üzerinden çalışan kayıt API oluşturma
 
 * Projede node.js ve express.js kullanılacak

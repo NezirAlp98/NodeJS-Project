@@ -30,12 +30,6 @@
     "stillEmployee": true
   },
   {
-    "id": "1700659958609",
-    "name": "Sema",
-    "age": 10,
-    "stillEmployee": false
-  },
-  {
     "id": "1700660665115",
     "name": "Jane",
     "age": 45,
@@ -44,7 +38,7 @@
   {
     "id": "1700660732163",
     "name": "Sami",
-    "age": 60,
+    "age": 53,
     "stillEmployee": false
   },
   {
@@ -52,5 +46,17 @@
     "name": "Sally",
     "age": 30,
     "stillEmployee": false
+  },
+  {
+    "id": "1700822763676",
+    "name": "Arslan",
+    "age": 56,
+    "stillEmployee": false
+  },
+  {
+    "id": "1700825164354",
+    "name": "Kane",
+    "age": 21,
+    "stillEmployee": true
   }
 ]

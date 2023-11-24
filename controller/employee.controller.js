@@ -10,7 +10,7 @@ exports.employeeSave=(req,res)=>{
         employees.push(newEmployee)
 
         jsonFileUtils.writeJsonFile(employees)
-        res.status(201).send()
+        res.status(201).send("Ekleme başarılı")
 
     } catch (error) {
         console.log(error)
@@ -66,7 +66,7 @@ exports.employeeUpdate=(req,res)=>{
             employees[index]={...employees[index],name,age,stillEmployee}
             jsonFileUtils.writeJsonFile(employees)
 
-            res.status(203).send()
+            res.status(203).send("Güncelleme başarılı")
         }else{
             res.status(404).send()
         }
@@ -86,7 +86,7 @@ exports.employeeDelete=(req,res)=>{
         const updatedEmployees = employees.filter(e => e.id !== id);
 
         jsonFileUtils.writeJsonFile(updatedEmployees)
-        res.status(204).send()
+        res.status(204).send("Başarıyla silindi")
 
     } catch (error) {
         console.log(error)
